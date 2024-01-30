@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>73 parts - Sua loja de peças importadas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Comfortaa:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">    
+</head>
+<body>
+    <header>
+        <h1>73 parts</h1>
+        <form>
+            <input type="search" placeholder="Busque no site">
+            <button type="submit">Pesquisar</button>
+        </form>
+    </header>
+    <main>
+        <div id="about">
+            <section id="about-img">
+                <picture>
+                    <source srcset="./imagens/loja-p.jpg" media="(max-width: 640px)">
+                    <source srcset="./imagens/loja-m.jpg" media="(min-width: 641px) and (max-width: 1023px)">
+                    <source srcset="./imagens/loja-g.jpg" media="(min-width: 1024px)">
+                    <img src="./imagens/loja-m.jpg" alt="loja">
+                </picture>
+            </section>
+            <section id="about-txt">
+                <h3>Sobre a Loja</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis maxime consequatur quod rem corrupti hic dicta tempore suscipit minus molestias? Blanditiis quaerat excepturi aspernatur veritatis dolores aliquam. Voluptates, ipsa ullam?</p>
+            </section>
+        </div>
+        <h2>Produtos</h2>
+        <ul id="vitrine">
+            <li>
+                <img src="./imagens/prod1.png" alt="modulo ABS">
+                <h3>Modulo ABS GM</h3>
+                <p>ABS 3.0 com sensor de efeito hall e chicote incluso </p>
+                <strong>R$ 1470,00</strong>
+                <button type="button">Adicionar ao carrinho</button>
+            </li>
+            <li>
+                <img src="./imagens/prod2.png" alt="Carburador">
+                <h3>Carburador DFV 228</h3>
+                <p>Modelo raro de 1984 com haste esferica corpo simples e afogador</p>
+                <strong>R$ 1983,40</strong>
+                <button type="button">Adicionar ao carrinho</button>
+            </li>
+            <li>
+                <img src="./imagens/prod3.png" alt="ECU">
+                <h3>ECU GM</h3>
+                <p>Modulo de 84 pinos, terminal duplo, com sistema Bosch Motronic 7.9.9 instalado</p>
+                <strong>R$ 982,00</strong>
+                <button type="button">Adicionar ao carrinho</button>
+            </li>
+            <li>
+                <img src="./imagens/prod4.png" alt="Cubo diferencial">
+                <h3>Cubo de diferencial</h3>
+                <p>Kit do cubo de diferencial para sistemas LSD de 16 discos</p>
+                <strong>R$ 4470,00</strong>
+                <button type="button">Adicionar ao carrinho</button>
+            </li>
+        </ul>
+        
+    </main>
+</body>
+</html>
